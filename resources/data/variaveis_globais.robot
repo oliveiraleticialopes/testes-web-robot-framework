@@ -4,7 +4,7 @@ Resource    ../main.robot
 Documentation    Variaveis Globais
 *** Variables ***
 #TENHO QUE PADRONIZAR AS VARIAVEIS
-${URL}    https://automacao.qacoders-academy.com.br/login
+${URL}    https://automacao.qacoders.dev.br/login
 ${EMAIL}    sysadmin@qacoders.com
 
 ${PASSWORD}    1234@Test
@@ -21,6 +21,7 @@ ${headlesschrome}    headlesschrome
 
 #variaveil de tempo de espera de execusão 
 ${TIME_GERAL}    15
-${repeticoes}    2
+${repeticoes}    3
+
 
 

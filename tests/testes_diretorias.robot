@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation    testes de login e cadastro de usuário e diretoria
 Resource          ../resources/main.robot
-
+Test Setup    abrir avegador
 *** Test Cases ***
 cadastrar_diretoria
     [Tags]    T1
@@ -31,9 +31,7 @@ campo_diretoria_sem_nome
 
 editar diretoria ecapsualamento
     [Tags]    T11
-
     ${NOME_DIRETORIA}=    gerar_nome_aleatorio_diretoria
-
     login valido keyword    ${EMAIL}    ${PASSWORD} 
     clicar menu de cadastro 
     clicar botao diretoria

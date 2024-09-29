@@ -5,7 +5,7 @@ Resource          ../resources/main.robot
 *** Test Cases ***
 cadastrar_usuario_com_sucesso
     [Tags]    T1    
-
+    abrir avegador
     ${variavel_temporaria_nome}=     gerar_nome_aleatorio
     ${variavel_temporaria_email}=    gerar_email_aleatorio
     ${variavel_temporaria_cpf}=    gerar_cpf_aleatorio
@@ -27,7 +27,10 @@ cadastrar_usuario_com_sucesso
     login valido keyword    ${variavel_temporaria_email}    ${variavel_temporaria_password}
     tirar print    logs/prints_usuario    preencheu_login_novo_usuario
     # elemento visivel    ${CAMPO_CADASTROS}
+    fechar navegador
 
+
+#lembrar de procurar uma melhor forma de verificar as mensagens de alerta
 campos_nome_vazio_de _cadastrar_usuario   
     [Tags]    T2    
     abrir avegador

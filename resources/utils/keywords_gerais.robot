@@ -4,8 +4,8 @@ Resource      ../main.robot
 
 *** Keywords ***
 abrir avegador
-    Open Browser    ${URL}    ${headlesschrome} 
-    Set Window Size    1920    1080  
+    Open Browser    ${URL}    	headlesschrome
+    
 
 clicar elemento
     [Arguments]    ${element}    
