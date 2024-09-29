@@ -6,7 +6,6 @@ Resource          ../main.robot
 *** Keywords ***
 login valido keyword
     [Arguments]    ${EMAIL}    ${PASSWORD}
-    abrir avegador   
     preencher email    ${EMAIL}
     preencher senha    ${PASSWORD}
     tirar print    logs/prints_login   preecheu_login

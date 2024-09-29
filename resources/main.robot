@@ -5,7 +5,7 @@ Documentation    Estrutura do projeto em pastas
 Library    SeleniumLibrary
 Library    String
 Library    ./utils/scroll.py
-Library    FakerLibrary
+
 #variaveis globais
 
 Resource   data/variaveis_globais.robot

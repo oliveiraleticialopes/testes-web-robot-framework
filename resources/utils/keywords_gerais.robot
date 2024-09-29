@@ -4,7 +4,7 @@ Resource      ../main.robot
 
 *** Keywords ***
 abrir avegador
-    Open Browser    ${URL}    	headlesschrome
+    Open Browser    ${URL}    	${headlesschrome}
     
 
 clicar elemento
@@ -51,7 +51,7 @@ rolar
 
 rolar ate ficar visivel
     [Arguments]    ${element}
-    Wait Until Keyword Succeeds    ${repeticoes}    1    Scroll Element Into View    ${element}    
+    Wait Until Keyword Succeeds    ${repeticoes}    3    Scroll Element Into View    ${element}    
 
 clicar de forma repetida
     [Arguments]    ${element}    

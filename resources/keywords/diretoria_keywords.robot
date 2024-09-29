@@ -20,7 +20,7 @@ alerta de campo diretoria invalida
     elemento nao visivel    ${ALERTA_DE_CAMPOS_INCORRETOS_DIRETORIA}
 
 clicar na seta que direciona para a ultima diretoria 
-    rolar ate ficar visivel    ${SETA_ULTIMA_DIRETORIA}     
+    rolar ate ficar visivel    ${SETA_ULTIMA_DIRETORIA}
     clicar elemento    ${SETA_ULTIMA_DIRETORIA}
 
 ir para a ultima diretoira cadastrarda

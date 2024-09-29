@@ -12,6 +12,9 @@ preencher email
 preencher senha
     [Arguments]    ${PASSWORD}
     preencher texto    ${CAMPO_LOGIN_SENHA}     ${PASSWORD}
+
+botao entrar e visivel
+    Wait Until Element Is Visible    ${BOTAO_ENTRAR}
 clicar botao entrar
     clicar elemento   ${BOTAO_ENTRAR}
 
