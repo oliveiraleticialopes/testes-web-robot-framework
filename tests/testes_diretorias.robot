@@ -1,7 +1,6 @@
 *** Settings ***
-Documentation    testes de login e cadastro de usuário e diretoria
 Resource          ../resources/main.robot
-Test Setup    abrir avegador
+Test Setup    abrir navegador
 Test Teardown    fechar navegador
 *** Test Cases ***
 cadastrar_diretoria

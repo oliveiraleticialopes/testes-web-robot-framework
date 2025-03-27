@@ -3,8 +3,8 @@
 Resource      ../main.robot
 
 *** Keywords ***
-abrir avegador
-    Open Browser    ${URL}    	${headlesschrome}
+abrir navegador
+    Open Browser    ${URL}    	 ${chrome}
     
 
 clicar elemento
