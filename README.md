@@ -30,8 +30,7 @@ Este projeto implementa testes automatizados utilizando o [Robot Framework](http
   - [testes_usuarios.robot](tests/testes_usuarios.robot)  
   - [testes_diretorias.robot](tests/testes_diretorias.robot)
 
-- **logs/**  
-  Diretório utilizado para armazenar logs e prints gerados durante a execução dos testes.
+- 
 
 ## Pré-requisitos
 
